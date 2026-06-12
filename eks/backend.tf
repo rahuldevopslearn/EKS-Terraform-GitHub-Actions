@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "dev-rahul19-tf-bucket"
+    bucket         = "app-rahul-payment-s3-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     use_lockfile = true
